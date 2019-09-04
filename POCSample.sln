@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POCSample", "POCSample\POCSample.csproj", "{0D03196F-8965-451B-B919-D3E9BF9848CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Graph.Core", "..\..\..\..\..\msgraph-sdk-dotnet-core\src\Microsoft.Graph.Core\Microsoft.Graph.Core.csproj", "{9354BAC1-18AF-4506-9D22-1257BB9188F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Graph", "..\..\..\..\..\msgraph-sdk-dotnet\src\Microsoft.Graph\Microsoft.Graph.csproj", "{16E4D721-8908-4E9C-96D0-6A056167151A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Graph.Auth", "..\..\..\..\..\msgraph-sdk-dotnet-auth\src\Microsoft.Graph.Auth\Microsoft.Graph.Auth.csproj", "{8D8FE968-FF9C-43EB-979C-2E541D6A1909}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D03196F-8965-451B-B919-D3E9BF9848CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D03196F-8965-451B-B919-D3E9BF9848CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D03196F-8965-451B-B919-D3E9BF9848CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D03196F-8965-451B-B919-D3E9BF9848CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9354BAC1-18AF-4506-9D22-1257BB9188F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9354BAC1-18AF-4506-9D22-1257BB9188F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9354BAC1-18AF-4506-9D22-1257BB9188F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9354BAC1-18AF-4506-9D22-1257BB9188F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E4D721-8908-4E9C-96D0-6A056167151A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E4D721-8908-4E9C-96D0-6A056167151A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E4D721-8908-4E9C-96D0-6A056167151A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E4D721-8908-4E9C-96D0-6A056167151A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D8FE968-FF9C-43EB-979C-2E541D6A1909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D8FE968-FF9C-43EB-979C-2E541D6A1909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D8FE968-FF9C-43EB-979C-2E541D6A1909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D8FE968-FF9C-43EB-979C-2E541D6A1909}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BF23134-259E-4288-B327-060E1FE5579A}
+	EndGlobalSection
+EndGlobal
